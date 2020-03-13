@@ -5,7 +5,7 @@ from sklearn import datasets, metrics
 import matplotlib.pyplot as plt
 
 
-class SVM:
+class LinearSVM:
     def __init__(self):
         self.digits = datasets.load_digits()
 
